@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header.banner {
+    background-image: url('banner.png');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    
+}
+
+main {
+    padding: 20px;
+}
+
+main section {
+    margin-bottom: 40px;
+}
+
+.historia img,
+.servicos img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .contato,
+footer .logo,
+footer .direitos {
+    margin-bottom: 10px;
+}
+
+footer .logo img {
+    max-width: 100px;
+}
